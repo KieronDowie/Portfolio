@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html charset='utf-8'>
+<head>
+	<title>That Techy Guy</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+	<script src="jquery.min.js" type="text/javascript"></script>
+	<script src="script.js" type="text/javascript"></script>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div id="bg" class="container-fluid">
+		<div id="home" class="hero row-fluid">
+			<nav class="navbar navbar-fixed-top col-md-12 col-sm-12 pull-right">
+				<ul class="col-md-12 col-sm-12 pull-right text-center">
+					<li class="col-md-1" name="home" onclick="jScroll(event)">Home</li>
+					<li class="col-md-2 col-md-offset-5" name="about" onclick="jScroll(event)">About me</li>
+					<li class="col-md-2" name="skills" onclick="jScroll(event)">Skills</li>
+					<li class="col-md-2" name="contact" onclick="jScroll(event)">Contact me</li>
+				</ul>
+			</nav>
+			<h1 class="col-md-6 col-md-offset-1">That Techy Guy</h1>
+			<h4 class="col-md-6 col-md-offset-1">Because IT isn't about scripts and codes - <strong>It's about helping people.</strong></h4>
+			<div class="col-md-12">
+				<button class="btn col-md-2 col-md-offset-2" name="contact" onclick="jScroll(event)">Contact me!</button>
+			</div>
+		</div>
+		<div id="about" class="hero row-fluid">
+			<div class="text-column col-md-6">
+				<p>
+					Remember that time, just before the big meeting, when your printer suddenly stopped working? Or that time when the internet cut out, for likely no reason other than pure spite? Remember how you shouted down the hall for "that techy guy" to come have a look at it?
+				</p>
+				<p>That guy is me.</p>
+				<p>Programming is my passion, but I understand better than anyone that it probably isn't yours. You don't want to know why making the header of your site bigger broke the clock, or how one might go about adding a new feature, you want everything to just work, so you can go back to doing the things you <em>are</em> passionate about.</p>
+				<p>I have been programming since I was 13. I started out with languages like Java, C++ and C#, then a few years ago made the move to web development, learning Javascript, HTML and CSS. I now work regularly with PHP and NodeJS.</p>
+			</div>
+			<div class="text-column col-md-6">
+				
+			</div>
+		</div>
+		<div id="skills" class="hero row-fluid">
+			<div id="skillstable" class="col-md-12">
+				<header class="col-md-12" >
+					<p class="col-md-3 col-sm-3"><span class="popup">Basic</span></p>
+					<p class="col-md-3 col-sm-3"><span class="popup">Novice</span></p>
+					<p class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1"><span class="popup">Intermediate</span></p>
+					<p class="col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2"><span class="popup">Expert</span></p>
+				</header>
+				<div class="barholder col-md-12 col-sm-12"><div id="skilljavascript" class="bar col-md-9"><span>Javascript</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skilljquery" class="bar col-md-7"><span>JQuery</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillbootstrap" class="bar col-md-4"><span>Bootstrap</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillhtml" class="bar col-md-9"><span>HTML</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillcss" class="bar col-md-8"><span>CSS</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillnodejs" class="bar col-md-7"><span>NodeJS</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillphp" class="bar col-md-5"><span>PHP</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillwordpress" class="bar col-md-4"><span>Wordpress</span></span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skilljava" class="bar col-md-2"><span>Java</span></div></div>
+				<div class="barholder col-md-12 col-sm-12"><div id="skillcplusplus" class="bar col-md-2"><span>C++</span></div></div>
+			</div>
+		</div>
+		<div id="contact" class="hero row-fluid">
+			<div id="social" class="col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1">
+				<a href='https://twitter.com/KieronDowie'><div class="socialbubble twitter col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2"></div></a>
+				<a href='https://www.linkedin.com/in/kieron-dowie-979b95131'><div class="socialbubble linkedin col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2"></div></a>
+				<a href='https://github.com/KieronDowie'><div class="socialbubble github col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2"></div></a>
+			</div>
+			<h4>kierondowie@gmail.com</h4>
+			<a href='mailto:kierondowie@gmail.com'><button class='btn btn-primary col-md-4 col-md-offset-4'>Give me a shout!</button></a>
+		</div>
+	</div>
+</body>
+</html>

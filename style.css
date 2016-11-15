@@ -1,0 +1,460 @@
+body
+{
+	background:url(office.jpg);
+	background-size: cover;
+    background-position: left top, right bottom;
+    background-attachment: fixed;
+}
+#bg
+{
+	padding:0;
+}
+#home
+{
+}
+#about
+{
+	background:#48AEAD;
+}
+#contact
+{
+	background:#80B2AE;
+}
+#skills
+{
+}
+.hero
+{
+	height:650px;
+}
+.hero .text-column
+{
+	padding-left: 3em;
+	padding-top: 5em;
+}
+.hero .text-column p
+{
+	margin:0;
+	padding-bottom: 1em;
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 18px;
+}
+.hero h1
+{
+	color:white;
+	text-shadow: 0 0 10px black;
+	padding-top: 160px;
+	font-size: 80px;
+	font-family: 'Baloo Paaji', Helvetica, sans-serif;
+}
+.hero h4
+{
+	padding-bottom:50px;
+	color:black;
+}
+.hero h4 strong
+{
+	color:white;
+	font-weight: normal;
+}
+.hero button
+{
+	margin-top: 80px;
+	height: 50px;
+	font-size: 18px;
+	font-family: 'Rubik', Helvetica;
+	background-color:#BF1212;
+	color:white;
+}
+.hero button:hover
+{
+	color:white;
+	background-color:#AD2828;
+}	
+.hero button:active
+{
+	color:white;
+	background-color:#941414 !important;
+}
+.hero button:focus
+{
+	color:white;
+	background-color:#BF1212 !important;
+}
+.navbar
+{
+	list-style:none;
+	float:right;
+}
+nav
+{
+	font-size: 20px;
+	font-family: 'Rubik', Helvetica, sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.7);
+}	
+nav ul
+{
+	list-style:none;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+nav ul li
+{
+	line-height: 50px;
+	border-bottom: 5px solid transparent;
+}
+nav ul li:hover
+{
+	cursor:pointer;
+}
+nav ul li[name="home"]:hover
+{
+	border-bottom-color: white;
+}
+nav ul li[name="about"]:hover
+{
+	border-bottom-color: cyan;
+}
+nav ul li[name="skills"]:hover
+{
+	border-bottom-color: #333;
+}
+nav ul li[name="contact"]:hover
+{
+	border-bottom-color: blue;
+}
+#skillstable
+{
+	background: rgba(0,0,0,0.9);
+	margin-top: 55px;
+	padding:0;
+	padding-bottom:20px;
+}
+#skillstable>header
+{
+	height:30px;
+	line-height:30px;
+	background: #1E1E1E;
+	color:white;
+	font-size:12px;
+}	
+.bar
+{
+	height:20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 15px;
+	cursor:default;
+}
+.bar span
+{
+	position:absolute;
+	top:50%;
+	transform:translate(0,-50%);
+}
+.bar .example
+{
+	border-radius:100%;
+	background:rgba(0,0,0,0.3);
+	height:100%;
+	width:20px;
+	display:inline-block;
+}
+#skillhtml
+{
+	background: #D2982D;
+}
+#skillhtml:hover
+{
+	background: #FBBE4E;
+}
+#skillcss:hover
+{
+	background:#8AF07E;
+}
+#skillcss
+{
+	background:#45B737;
+}
+#skilljavascript
+{
+	background: #8D8DED;
+}
+#skilljavascript:hover
+{
+	background: #C8C8FF;
+}
+#skillphp
+{
+	background: #636389;
+}
+#skillphp:hover
+{
+	background: #9F9FBB;
+}
+#skillnodejs
+{
+	background: #ABD22D;
+}
+#skillnodejs:hover
+{
+	background: #CBFF23;
+}
+#skillwordpress
+{
+	background: #D7DB4B;
+}
+#skillwordpress:hover
+{
+	background: #FCFF70;
+}
+#skilljava
+{
+	background: #BC321E;
+}
+#skilljava:hover
+{
+	background: #FF573E;
+}
+#skilljquery
+{
+	background: #1EBC75;
+}
+#skilljquery:hover
+{
+	background: #3EF2A1;
+}
+#skillbootstrap
+{
+	background: #AF71AE;
+}
+#skillbootstrap:hover
+{
+	background: #EB8EEA;
+}
+#skillcplusplus
+{
+	background: #54D642;
+}
+#skillcplusplus:hover
+{
+	background: #7AF369;
+}
+#skillstable header p span
+{
+	position:relative;
+	cursor:default;
+}
+.hovertext
+{
+	position:absolute;
+	left:0px;
+	top:25px;
+	min-height:60px;
+	min-width:150px;
+	background: #464646;
+	border-radius: 10px;
+	z-index: 100;
+	font-size:10px;
+	color:white;
+	padding:10px;
+	padding-right:5px;
+	padding-bottom:5;
+	line-height: 12px;
+}
+.x
+{
+	color:#A3A3A3;
+	font-size: 20px;
+	margin:0;
+	margin-top:10px;
+	padding:0;
+	line-height:0;
+}
+.x:hover
+{
+	color:white;
+}
+#showcase
+{
+	color:white;
+	margin-top:50px;
+	height:150px;
+	background: rgba(0,0,0,0.9);
+	padding:10px;
+	position:relative;
+}
+#showcase p
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.socialbubble
+{
+	background:white;
+	height:140px;
+	border-radius:50%;
+	display:block;
+	margin:auto 0;
+	border: 4px solid #8A8AC7;
+	cursor: pointer;
+}
+.twitter
+{
+	background-image:url(twitter.png);
+	background-size:50% 50%;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.linkedin
+{
+	background-image:url(linkedin.jpg);
+	background-size:100% 60%;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.github
+{
+	background-image:url(github.jpg);
+	background-size:80% 80%;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.email
+{
+	background-image:url(mail.jpg);
+	background-size:80% 80%;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+#social
+{
+	margin-top: 100px;
+	margin-bottom:100px;
+}
+#contact h4
+{
+	text-align:center;
+	font-size: 6em;
+	color:white;
+	text-shadow: 0 0 10px #4B4949;
+	font-family: 'Rubik', Helvetica;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+#social button
+{
+	margin-top:0;
+	padding:10px;
+}
+.fullpopup
+{
+	opacity:0;
+	padding-bottom:20px;
+	top:30%;
+	position:fixed;
+	background:rgba(0,0,0,0.9);
+	color:white;
+	border-radius:30px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+.fullpopup h3
+{
+	padding-bottom:20px;
+	font-size: 30px;
+	margin:0;
+}
+.fullpopup img
+{
+	margin-bottom: 10px;
+	padding-left:0;
+	padding-right:0;
+	border-radius: 20px;
+}
+.fullpopup p
+{
+	padding:0;
+	padding-left:20px;
+	padding-right:10px;
+}
+.showcaseitem
+{
+	background-size: 100% 100%;
+	background-position:center center;
+	height:100%;
+	width:15%;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	margin-left:2%;
+	position:relative;
+}
+.showcaseitem:first-child
+{
+	margin-left:1%;
+}
+.showcasewrapper
+{
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+	width:80%;
+	overflow:hidden;
+}
+.hider
+{
+	height:100%;
+	width:200%;
+}
+.showcasetitle
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+	background: rgba(0,0,0,0.7);
+	text-align:center;
+	font-family: 'Rubik', Helvetica, sans-serif;
+	line-height: 30px;
+}
+.arrow
+{
+	height:30px;
+	width:20px;
+	cursor:pointer;
+}
+.left
+{
+	position:absolute;
+	left:6%;
+	top:50%;
+	transform:translate(0,-50%);
+	background-image: url(left.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.right
+{
+	position:absolute;
+	right:6%;
+	top:50%;
+	transform:translate(0,-50%);
+	background-image: url(right.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.right:hover
+{
+	background-image: url(hiright.png);
+}
+.left:hover
+{
+	background-image: url(hileft.png);
+}
