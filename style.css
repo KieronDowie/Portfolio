@@ -42,7 +42,7 @@ body
 	color:white;
 	text-shadow: 0 0 10px black;
 	padding-top: 160px;
-	font-size: 60pt;
+	font-size: 6em;
 	font-family: 'Baloo Paaji', Helvetica, sans-serif;
 }
 .hero h4
@@ -86,7 +86,7 @@ body
 }
 nav
 {
-	font-size: 18pt;
+	font-size: 1.6em;
 	font-family: 'Rubik', Helvetica, sans-serif;
 	color: white;
 	background: rgba(0,0,0,0.7);
