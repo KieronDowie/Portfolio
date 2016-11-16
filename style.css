@@ -20,9 +20,6 @@ body
 {
 	background:#80B2AE;
 }
-#skills
-{
-}
 .hero
 {
 	height:650px;
@@ -38,14 +35,14 @@ body
 	padding-bottom: 1em;
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 1.2em;
 }
 .hero h1
 {
 	color:white;
 	text-shadow: 0 0 10px black;
 	padding-top: 160px;
-	font-size: 80px;
+	font-size: 6em;
 	font-family: 'Baloo Paaji', Helvetica, sans-serif;
 }
 .hero h4
@@ -62,7 +59,7 @@ body
 {
 	margin-top: 80px;
 	height: 50px;
-	font-size: 18px;
+	font-size: 1.2em;
 	font-family: 'Rubik', Helvetica;
 	background-color:#BF1212;
 	color:white;
@@ -89,7 +86,7 @@ body
 }
 nav
 {
-	font-size: 20px;
+	font-size: 1.6em;
 	font-family: 'Rubik', Helvetica, sans-serif;
 	color: white;
 	background: rgba(0,0,0,0.7);
@@ -103,7 +100,7 @@ nav ul
 }
 nav ul li
 {
-	line-height: 50px;
+	line-height: 2.6em;
 	border-bottom: 5px solid transparent;
 }
 nav ul li:hover
@@ -136,10 +133,10 @@ nav ul li[name="contact"]:hover
 #skillstable>header
 {
 	height:30px;
-	line-height:30px;
+	line-height:2.8em;
 	background: #1E1E1E;
 	color:white;
-	font-size:12px;
+	font-size:0.9em;
 }	
 .bar
 {
@@ -258,7 +255,7 @@ nav ul li[name="contact"]:hover
 	background: #464646;
 	border-radius: 10px;
 	z-index: 100;
-	font-size:10px;
+	font-size:0.8em;
 	color:white;
 	padding:10px;
 	padding-right:5px;
@@ -268,7 +265,7 @@ nav ul li[name="contact"]:hover
 .x
 {
 	color:#A3A3A3;
-	font-size: 20px;
+	font-size: 1.6em;
 	margin:0;
 	margin-top:10px;
 	padding:0;
@@ -366,7 +363,7 @@ nav ul li[name="contact"]:hover
 .fullpopup h3
 {
 	padding-bottom:20px;
-	font-size: 30px;
+	font-size: 2.6em;
 	margin:0;
 }
 .fullpopup img
@@ -420,7 +417,7 @@ nav ul li[name="contact"]:hover
 	background: rgba(0,0,0,0.7);
 	text-align:center;
 	font-family: 'Rubik', Helvetica, sans-serif;
-	line-height: 30px;
+	line-height: 2.2em;
 }
 .arrow
 {
